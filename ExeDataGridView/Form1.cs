@@ -21,7 +21,11 @@ namespace ExeDataGridView
         {
             // TODO: This line of code loads data into the 'prodiTIDataSet.Mahasiswa' table. You can move, or remove it, as needed.
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.ColumnHeadersDefaultCellStyle.Font, FontStyle.Bold);
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
