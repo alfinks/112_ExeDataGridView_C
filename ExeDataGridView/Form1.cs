@@ -23,7 +23,17 @@ namespace ExeDataGridView
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.ColumnHeadersDefaultCellStyle.Font, FontStyle.Bold);
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+            this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
+            this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Salmon;
+            this.dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
+            this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Green;
+            this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.Blue;
+            this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.DarkRed;
+
+        }
+
+
+            private void pictureBox2_Click(object sender, EventArgs e)
         {
            
         }
