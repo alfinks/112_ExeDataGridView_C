@@ -30,12 +30,24 @@ namespace ExeDataGridView
             this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.Blue;
             this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.DarkRed;
 
+            this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
+            this.dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.Blue;
+            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.CadetBlue;
+            this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Green;
+            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Maroon;
+
+
         }
 
 
             private void pictureBox2_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
